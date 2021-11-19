@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="Estilos\acerca.css" />
+    <title>Yaguarete Ka'a</title>
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <a href="Principal.html">
+          <img src="Estilos\logo.png" alt=""/>
+        </a>
+      </div>
+      <div>
+        <button type="button" class="btn btn-outline-light" id="login">LOGIN</button>
+        <button type="button" class="btn btn-outline-light" id="register">REGISTRO</button>
+        <button type="button" class="btn btn-outline-light" id="carrito">CARRITO</button>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Principal.html">Home</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Interiores</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Exteriores</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="acerca" aria-current="page" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="contacto" href="mailto:YaguareteKaa@correo.com?Subject=Consultas%20Web">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+            <button class="btn btn-secondary" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="acerca">
+        <form style="max-width: 480px; margin:auto; margin-top: 25px;"> 
+            <h1 style="text-align: center; "class="h3 mb-3 font-weight-normal">ACERCA DE</h1>
+            <p>
+                <b>Yaguarete Ka'a</b> agrupa la oferta de un conjunto selecto de fábricas, unificando así sus recursos y potenciando las habilidades individuales, 
+                para llevar dia a dia a tu casa los mejores muebles, a los mejores precios.
+                <br>
+                <br>
+                En <b>Yaguarete Ka'a</b> ofrecemos la combinacion ideal de juventud y experiencia, porque desde 1965 lideramos, 
+                sin interrupciones, el mercado del mueble Argentino y al mismo tiempo tenemos la permanente obsesión de 
+                renovarnos actualizando y modernizando nuestros diseños y propuestas.
+
+            </p>
+          </div>
+        </form> 
+      </div> 
+
+
+
+    <footer class="footer" style="margin-top: 65vh;">
+      
+        <h6>© Yaguarete Ka'a desde 1965</h6>
+      
+    </footer>
+    <script>
+      document.getElementById("login").onclick= function(){
+        location.href = "Login.html"
+      }
+      document.getElementById("register").onclick= function(){
+        location.href = "Registro.html"
+      }
+
+      document.getElementById("register2").onclick= function(){
+        location.href = "Registro.html"
+      }
+
+      document.getElementById("acerca").onclick = function(){
+        location.href = "AcercaDe.html"
+      }
+
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/580af66536.js" crossorigin="anonymous"></script>
+  </body>
+</html>
